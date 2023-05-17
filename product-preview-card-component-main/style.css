@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+main{
+    position: relative;
+    margin: auto;
+    width:400px ;
+    background-color: white;
+}
+div#imagen {
+    display: block;
+    background: url(images/image-product-mobile.jpg) no-repeat center center;
+    background-size: contain;
+    height: 250px;
+    width: 400px;
+}
